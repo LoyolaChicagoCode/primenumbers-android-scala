@@ -3,11 +3,8 @@ package edu.luc.etl.cs313.android.scala.primechecker
 import android.graphics.Color
 import android.util.Log
 import android.widget.{ ProgressBar, TextView }
-
-import com.loopj.android.http.AsyncHttpClient
-import com.loopj.android.http.AsyncHttpResponseHandler
-import com.loopj.android.http.RequestHandle
 import org.apache.http.Header
+import com.loopj.android.http.{ AsyncHttpClient, AsyncHttpResponseHandler, RequestHandle }
 
 /**
  * Background task for checking remotely whether a number is prime.
